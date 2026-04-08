@@ -1,22 +1,35 @@
-IMDb Movie Recommendation System Using Storylines
-Content-based recommender that finds movies with similar plots using TF-IDF + cosine similarity on 5000+ IMDb 2024 storylines.[file:96] Interactive Streamlit UI.[web:127]
+text
+# IMDb Movie Recommendation System Using Storylines
 
-🎯 Features
-5000+ movies with storylines from IMDb 2024 titles[file:96]
-NLP pipeline: Text cleaning → TF-IDF vectors → Cosine similarity ranking[web:13]
-Streamlit app: Input storyline → Top-5 recommendations with similarity scores
-Production-ready: Cached model, scales to 50k+ rows
-🛠 Tech Stack
+**Content-based recommender** that finds movies with similar plots using **TF-IDF + cosine similarity** on **5000+ IMDb 2024 storylines**.[file:96] Interactive **Streamlit** UI.[web:127]
+
+## 🎯 Features
+
+- 5000+ movies with storylines from IMDb 2024 titles[file:96]
+- NLP pipeline: Text cleaning → TF-IDF vectors → Cosine similarity ranking[web:13]
+- Streamlit app: Input storyline → Top-5 recommendations with similarity scores
+- Production-ready: Cached model, scales to 50k+ rows
+
+## 🛠 Tech Stack
+
 Python - Streamlit - scikit-learn - pandas - numpy
 
 text
 
-📁 Project Structure
-├── imdb_2024_movies_storylines_5000.csv # 5000+ IMDb storylines​├── recommender_backend.py # TF-IDF + similarity logic ├── app.py # Streamlit frontend ├── requirements.txt # Dependencies └── README.md # You're reading it!
+## 📁 Project Structure
+
+├── imdb_2024_movies_storylines_5000.csv # 5000+ IMDb storylines
+​
+├── recommender_backend.py # TF-IDF + similarity logic
+├── app.py # Streamlit frontend
+├── requirements.txt # Dependencies
+└── README.md # You're reading it!
 
 text
 
-🚀 Quick Start
+## 🚀 Quick Start
+
+```bash
 git clone https://github.com/YOUR_USERNAME/IMDb-Movie-Recommendation-Storylines
 cd IMDb-Movie-Recommendation-Storylines
 
